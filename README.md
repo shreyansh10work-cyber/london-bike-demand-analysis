@@ -1,67 +1,54 @@
 # 🚲 London Bike Demand Analysis
 
-## Project Overview
+## Overview
 
-This project analyses London bike-sharing demand using Python to understand **when and under what conditions bike usage is highest**.
+Analysed **17,414 hourly London bike-sharing records** to identify demand patterns that could help TfL improve bike availability, increase utilisation and reduce unnecessary operating costs.
 
-The dataset was obtained from **Kaggle** and contains approximately **17,414 hourly observations** covering bike rentals, weather, temperature, humidity, holidays, weekends and seasons.
+**Dataset Source:** Kaggle – London Bike Sharing Dataset
 
-## Business Objective
+## 🎯 Business Goal
 
-The main objective is to identify demand patterns that could help **TfL improve bike availability, increase utilisation and reduce unnecessary operational costs**.
+**Right bikes → Right time → Higher availability → More completed journeys → Higher revenue potential**
 
-Better demand planning can help TfL place the right number of bikes at the right locations and times.
+The project explores how **time, weather, seasonality, weekends and holidays** influence cycle demand to support better fleet and resource planning.
 
-## Key Insights
+## 📊 Key Insights
 
-* Bike demand peaks around **08:00 and 17:00–18:00**, showing strong commuter usage.
-* Weekday demand is approximately **24% higher than weekend demand**.
-* Summer demand is around **78% higher than winter demand**.
-* Bad weather significantly reduces bike usage.
-* Temperature has a positive relationship with bike demand.
-* Higher humidity is associated with lower demand.
-* Holiday demand is around **33% lower than normal days**.
+* ⏰ Peak demand occurs around **08:00 (~2,883 rides/hour)** and **17:00 (~2,830)**, highlighting strong commuter demand.
+* 📅 Weekday demand is approximately **24% higher** than weekend demand.
+* ☀️ Summer demand is approximately **78% higher** than winter demand.
+* 🎉 Holiday demand is approximately **33% lower** than normal days.
+* 🌡️ Temperature has a positive relationship with demand (**r = +0.39**).
+* 💧 Humidity has a negative relationship with demand (**r = -0.46**).
+* 🌧️ Rain, thunderstorms and snow significantly reduce bike usage.
 
-## How This Can Help TfL
+## 💼 Business Value for TfL
 
-These insights can help TfL:
+These insights could help TfL:
 
-* 🚲 Move bikes to high-demand areas before peak hours.
-* 📈 Increase bike availability during periods with higher revenue potential.
-* 💰 Reduce unnecessary redistribution costs during low-demand periods.
-* 🔧 Schedule maintenance during winter, holidays and other low-demand periods.
-* ☀️ Use weather forecasts to anticipate changes in bike demand.
-* 👥 Improve staffing and operational planning.
-* 📊 Develop future demand forecasting models.
+* Reposition bikes **before morning and evening peaks**
+* Increase bike availability when demand is highest
+* Reduce unnecessary redistribution during low-demand periods
+* Schedule maintenance during quieter periods
+* Use weather forecasts to improve short-term demand planning
+* Improve fleet utilisation and customer availability
 
-## Potential Financial Impact
+### Value Creation
 
-Using demand-driven planning could help TfL improve financial performance by:
+**Better demand planning → Fewer bike shortages → More completed rides → Higher revenue potential**
 
-**Higher bike availability → More completed journeys → Higher revenue potential**
+**Lower-demand identification → Better staffing & redistribution → Lower operating costs**
 
-while also achieving:
+> The dataset does not contain revenue or cost data, so financial impact is presented as a business opportunity rather than a measured profit increase.
 
-**Better demand forecasting → Less unnecessary redistribution → Lower operating costs**
+## 🛠 Tools
 
-The overall goal is to move from **reactive bike management to proactive, data-driven fleet planning**.
+`Python` `Pandas` `NumPy` `Matplotlib` `Seaborn` `Jupyter Notebook`
 
-## Tools Used
+## 🚀 Next Step
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Jupyter Notebook
+Develop a predictive demand model using time and weather variables to help TfL move from **reactive to proactive fleet management**.
 
-## Dataset Source
-
-**Kaggle – London Bike Sharing Dataset**
-
-Used for educational and portfolio analysis.
-
-## Author
+## 👤 Author
 
 **Shreyansh Chaudhary**
-
